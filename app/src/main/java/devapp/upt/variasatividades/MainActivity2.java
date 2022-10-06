@@ -17,9 +17,9 @@ public class MainActivity2 extends AppCompatActivity {
         TextView texto = findViewById(R.id.textViewMain2);
         boolean recebido = intentRecebido.getBooleanExtra("Teste", false);
         if(recebido){
-            texto.setText("PAR");
+            texto.setText(R.string.ParS);
         }else{
-            texto.setText("IMPAR");
+            texto.setText(R.string.ImparS);
         }
 
     }
