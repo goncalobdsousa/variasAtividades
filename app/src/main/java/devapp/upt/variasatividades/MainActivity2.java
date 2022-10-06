@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -22,6 +23,10 @@ public class MainActivity2 extends AppCompatActivity {
             texto.setText(R.string.ImparS);
         }
 
+    }
+
+    public void onClick(View v){
+        finish();
     }
 
 
